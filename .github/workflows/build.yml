@@ -52,7 +52,7 @@ jobs:
       - name: Deploy on CapRover
         uses: caprover/deploy-from-github@v1.1.2
         with:
-          server: https://captain.caprover.streamersraw.com
+          server: https://caprover.streamersraw.com
           app: 'streamers'
           token: '${{ secrets.APP_TOKEN }}'
           image: 'ghcr.io/stopgambaplz/streamers:master'
